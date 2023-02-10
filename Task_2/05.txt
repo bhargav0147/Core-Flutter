@@ -1,0 +1,14 @@
+//Write a Dart program to generates multiplication tables
+//between n1 and n2 provided values.
+void main()
+{
+  dynamic i=0,j=0,n1=1,n2=5;
+  for(i=n1;i<=n2;i++)
+  {
+    for (j = n1; j < 11; j++)
+    {
+      print("$i X $j = ${j * n1}");
+    }
+    print("\n\n");
+  }
+}

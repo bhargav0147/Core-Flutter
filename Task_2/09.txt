@@ -1,0 +1,35 @@
+	// Write a Dart program to create a calculator using switch case.
+import 'dart:io';
+void main() {
+  dynamic a = 20, b = 10, n;
+  print("Addition For Press +");
+  print("Addition For Press -");
+  print("Addition For Press *");
+  print("Addition For Press /");
+
+  print("Enter Any := ");
+  n = stdin.readLineSync();
+  switch (n)
+  {
+    case '+':
+      {
+        print(a+b);
+        break;
+      }
+    case '-':
+      {
+        print(a-b);
+        break;
+      }
+    case '*':
+      {
+        print(a*b);
+        break;
+      }
+    case '/':
+      {
+        print(a/b);
+        break;
+      }
+  }
+}

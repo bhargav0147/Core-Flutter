@@ -1,0 +1,14 @@
+  //Write a Dart program to find a user given number is even or odd.
+import 'dart:io';
+void main()
+{
+  dynamic a=7;
+  if(a%2==0)
+    {
+      print("This Value Is Even");
+    }
+  else
+    {
+      print("This Value Is Odd");
+    }
+}

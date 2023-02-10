@@ -1,0 +1,12 @@
+void main()
+{
+  List a=[1,2,3,4,5];
+  List b=["Hello"];
+  int i=0;
+  
+  for(i=0;i<a.length;i++)
+  {
+    a[i]="${a[i]} Hello";
+  }
+  print(a);
+}

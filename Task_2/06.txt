@@ -1,0 +1,7 @@
+  // Dart program to find a cube of any number.
+void main()
+{
+  dynamic a=33;
+  
+  print("Cube Is := ${a*a*a}");  
+}

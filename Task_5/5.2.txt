@@ -1,0 +1,51 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.red,
+          title: Center(
+            child: Text("My RNW"),
+          ),
+        ),
+        body: Center(
+            child: RichText(
+          text: TextSpan(
+            children: [
+              TextSpan(
+                text: "Red & White\n",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red,
+                  fontSize: 50,
+                  decoration: TextDecoration.underline,
+                  letterSpacing: 7,
+                ),
+              ),
+              TextSpan(
+                text: "   Multimedia Education\n",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red,
+                  fontSize: 20,
+                  letterSpacing: 5,
+                ),
+              ),
+              TextSpan(
+                text: " Shaping ''skills'' for ''scalling'' higher...!!!",
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.red,
+                    letterSpacing: 2),
+              ),
+            ],
+          ),
+        )),
+      ),
+    ),
+  );
+}
